@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7645249155989522422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6255423195405593975}
+  - component: {fileID: 7013973151111088977}
+  - component: {fileID: 5379009226676342067}
+  m_Layer: 0
+  m_Name: Skeleton Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6255423195405593975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645249155989522422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.56, y: 46.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2597564444499405071}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7013973151111088977
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645249155989522422}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: bb83b53305e72b7498fe95a42fca55ae, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: '
+
+    Transform ''f_index.03.L'' has been deleted
+
+    Transform
+    ''f_index.02.L'' has been deleted
+
+    Transform ''f_index.01.L'' has been deleted
+
+    Transform
+    ''thumb.03.L'' has been deleted
+
+    Transform ''thumb.02.L'' has been deleted
+
+    Transform
+    ''thumb.01.L'' has been deleted
+
+    Transform ''palm.01.L'' has been deleted
+
+    Transform
+    ''f_middle.03.L'' has been deleted
+
+    Transform ''f_middle.02.L'' has been
+    deleted
+
+    Transform ''f_middle.01.L'' has been deleted
+
+    Transform ''palm.02.L''
+    has been deleted
+
+    Transform ''f_ring.03.L'' has been deleted
+
+    Transform
+    ''f_ring.02.L'' has been deleted
+
+    Transform ''f_ring.01.L'' has been deleted
+
+    Transform
+    ''palm.03.L'' has been deleted
+
+    Transform ''f_pinky.03.L'' has been deleted
+
+    Transform
+    ''f_pinky.02.L'' has been deleted
+
+    Transform ''f_pinky.01.L'' has been deleted
+
+    Transform
+    ''palm.04.L'' has been deleted
+
+    Transform ''hand.L'' has been deleted
+
+    Transform
+    ''forearm.L'' has been deleted
+
+    Transform ''upper_arm.L'' has been deleted
+
+    Transform
+    ''shoulder.L'' has been deleted
+
+    Transform ''f_index.03.R'' has been deleted
+
+    Transform
+    ''f_index.02.R'' has been deleted
+
+    Transform ''f_index.01.R'' has been deleted
+
+    Transform
+    ''thumb.03.R'' has been deleted
+
+    Transform ''thumb.02.R'' has been deleted
+
+    Transform
+    ''thumb.01.R'' has been deleted
+
+    Transform ''palm.01.R'' has been deleted
+
+    Transform
+    ''f_middle.03.R'' has been deleted
+
+    Transform ''f_middle.02.R'' has been
+    deleted
+
+    Transform ''f_middle.01.R'' has been deleted
+
+    Transform ''palm.02.R''
+    has been deleted
+
+    Transform ''f_ring.03.R'' has been deleted
+
+    Transform
+    ''f_ring.02.R'' has been deleted
+
+    Transform ''f_ring.01.R'' has been deleted
+
+    Transform
+    ''palm.03.R'' has been deleted
+
+    Transform ''f_pinky.03.R'' has been deleted
+
+    Transform
+    ''f_pinky.02.R'' has been deleted
+
+    Transform ''f_pinky.01.R'' has been deleted
+
+    Transform
+    ''palm.04.R'' has been deleted
+
+    Transform ''hand.R'' has been deleted
+
+    Transform
+    ''forearm.R'' has been deleted
+
+    Transform ''upper_arm.R'' has been deleted
+
+    Transform
+    ''shoulder.R'' has been deleted
+
+    Transform ''jaw.L.001'' has been deleted
+
+    Transform
+    ''jaw.L'' has been deleted
+
+    Transform ''temple.L'' has been deleted
+
+    Transform
+    ''forehead.L.002'' has been deleted
+
+    Transform ''forehead.L.001'' has been
+    deleted
+
+    Transform ''forehead.L'' has been deleted
+
+    Transform ''jaw.R.001''
+    has been deleted
+
+    Transform ''jaw.R'' has been deleted
+
+    Transform ''temple.R''
+    has been deleted
+
+    Transform ''forehead.R.002'' has been deleted
+
+    Transform
+    ''forehead.R.001'' has been deleted
+
+    Transform ''forehead.R'' has been deleted
+
+    Transform
+    ''jaw'' has been deleted
+
+    Transform ''face'' has been deleted
+
+    Transform
+    ''spine.006'' has been deleted
+
+    Transform ''spine.005'' has been deleted
+
+    Transform
+    ''spine.004'' has been deleted
+
+    Transform ''spine.003'' has been deleted
+
+    Transform
+    ''spine.002'' has been deleted
+
+    Transform ''spine.001'' has been deleted
+
+    Transform
+    ''toe.L'' has been deleted
+
+    Transform ''foot.L'' has been deleted
+
+    Transform
+    ''shin.L'' has been deleted
+
+    Transform ''thigh.L'' has been deleted
+
+    Transform
+    ''toe.R'' has been deleted
+
+    Transform ''foot.R'' has been deleted
+
+    Transform
+    ''shin.R'' has been deleted
+
+    Transform ''thigh.R'' has been deleted
+
+    Transform
+    ''spine'' has been deleted
+
+    Transform ''skeleton'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &5379009226676342067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645249155989522422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!1001 &2991265162176322704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6255423195405593975}
+    m_Modifications:
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4311111495703447436, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_Name
+      value: skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135248861957953765, guid: 790cbaa43a4b19c4a964617119f8d796,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: c346a9e2503cda64ba4698db6aa5e707, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 790cbaa43a4b19c4a964617119f8d796, type: 3}
+--- !u!4 &2597564444499405071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796,
+    type: 3}
+  m_PrefabInstance: {fileID: 2991265162176322704}
+  m_PrefabAsset: {fileID: 0}
