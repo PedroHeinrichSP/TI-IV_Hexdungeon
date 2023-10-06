@@ -15,6 +15,7 @@ public class EnemyAttack : MonoBehaviour
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        
     }
 
     void Update()
