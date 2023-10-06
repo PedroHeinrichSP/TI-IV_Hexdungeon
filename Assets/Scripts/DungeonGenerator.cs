@@ -48,12 +48,6 @@ public class DungeonGenerator : MonoBehaviour
         MazeGenerator();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void GenerateDungeon()
 {
 
@@ -101,7 +95,6 @@ public class DungeonGenerator : MonoBehaviour
                 }
             }
         }
-
     }
 
 

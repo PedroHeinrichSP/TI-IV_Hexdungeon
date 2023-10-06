@@ -12,12 +12,18 @@ public class ThirdPersonMovement : MonoBehaviour
     public float gravity = -9.81f;
     public float rollCooldown = 1.5f;
     public float attackCooldown = 1.0f; // Adjust as needed
+    public float energyRegenRate = 0.5f; // Adjust as needed
+    public UIController uiController;
     
     private float turnSmoothVelocity;
     private Vector3 velocity;
     private float rollCooldownTimer;
     private float attackCooldownTimer; // Timer for attack cooldown
 
+    private void Start()
+    {
+        animator.SetBool("isRolling", false);
+    }
     private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -25,6 +31,8 @@ public class ThirdPersonMovement : MonoBehaviour
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         Vector3 deltaPosition = transform.position;
 
+        // Energy Regen
+        uiController.energy += energyRegenRate * Time.deltaTime;
         HandleMovement(direction);
         HandleRoll();
         HandleAttack();
@@ -54,10 +62,15 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void HandleRoll()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton1)) && Time.time > rollCooldownTimer)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton1)) && Time.time > rollCooldownTimer && uiController.energy >= 45)
         {
             animator.SetTrigger("roll");
+            animator.SetBool("isRolling", true);
             rollCooldownTimer = Time.time + rollCooldown;
+            uiController.energy -= 45;
+            //wait for animation to finish and then set isRolling to false
+            new WaitForSeconds(2f);
+            animator.SetBool("isRolling", false);
         }
     }
 
@@ -72,5 +85,4 @@ public class ThirdPersonMovement : MonoBehaviour
             }
         }
     }
-
 }

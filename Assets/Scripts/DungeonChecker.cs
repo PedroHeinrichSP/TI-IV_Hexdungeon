@@ -16,7 +16,7 @@ public class DungeonChecker : MonoBehaviour
     public int coroutineCounter = 0;
 
     void Start()
-    {
+    {   
         DontDestroyOnLoad(dungeonEntry);
     }
 
